@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		281F87CB21A6A08200E53424 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281F87CA21A6A08200E53424 /* CoreDataHelper.swift */; };
+		281F87D021A6BC8600E53424 /* AnswerEntityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281F87CF21A6BC8600E53424 /* AnswerEntityTests.swift */; };
+		281F87D221A7FCE600E53424 /* ModelTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281F87D121A7FCE600E53424 /* ModelTesting.swift */; };
+		281F87D421A81B7C00E53424 /* tests.plist in Resources */ = {isa = PBXBuildFile; fileRef = 281F87D321A81B7C00E53424 /* tests.plist */; };
+		281F87D721A8384F00E53424 /* Test+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281F87D521A8384F00E53424 /* Test+CoreDataClass.swift */; };
+		281F87D821A8384F00E53424 /* Test+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281F87D621A8384F00E53424 /* Test+CoreDataProperties.swift */; };
 		2872CFE1219D574D0085E356 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872CFE0219D574D0085E356 /* AppDelegate.swift */; };
-		2872CFE3219D574D0085E356 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872CFE2219D574D0085E356 /* ViewController.swift */; };
 		2872CFE6219D574D0085E356 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2872CFE4219D574D0085E356 /* Main.storyboard */; };
 		2872CFE8219D574F0085E356 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2872CFE7219D574F0085E356 /* Assets.xcassets */; };
 		2872CFEB219D574F0085E356 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2872CFE9219D574F0085E356 /* LaunchScreen.storyboard */; };
 		2872CFF6219D574F0085E356 /* AlisaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872CFF5219D574F0085E356 /* AlisaTests.swift */; };
 		2872D001219D574F0085E356 /* AlisaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872D000219D574F0085E356 /* AlisaUITests.swift */; };
+		2872D016219DC4DF0085E356 /* LevelEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872D015219DC4DF0085E356 /* LevelEntity.swift */; };
+		2872D01C219DC7F30085E356 /* TestEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872D01B219DC7F30085E356 /* TestEntity.swift */; };
+		2872D01E219DC9610085E356 /* AnswerEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872D01D219DC9610085E356 /* AnswerEntity.swift */; };
+		2872D020219EA2ED0085E356 /* Testing.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2872D01F219EA2ED0085E356 /* Testing.storyboard */; };
+		2872D022219EA3410085E356 /* TestingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2872D021219EA3410085E356 /* TestingViewController.swift */; };
+		28D69740219F21C3009209CB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D6973F219F21C2009209CB /* MainViewController.swift */; };
+		28D69764219F2299009209CB /* Alisa.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28D69762219F2298009209CB /* Alisa.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +46,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		281F87CA21A6A08200E53424 /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		281F87CF21A6BC8600E53424 /* AnswerEntityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerEntityTests.swift; sourceTree = "<group>"; };
+		281F87D121A7FCE600E53424 /* ModelTesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTesting.swift; sourceTree = "<group>"; };
+		281F87D321A81B7C00E53424 /* tests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = tests.plist; sourceTree = "<group>"; };
+		281F87D521A8384F00E53424 /* Test+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Test+CoreDataClass.swift"; sourceTree = "<group>"; };
+		281F87D621A8384F00E53424 /* Test+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Test+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		2872CFDD219D574D0085E356 /* Alisa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alisa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2872CFE0219D574D0085E356 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2872CFE2219D574D0085E356 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2872CFE5219D574D0085E356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2872CFE7219D574F0085E356 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2872CFEA219D574F0085E356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +64,13 @@
 		2872CFFC219D574F0085E356 /* AlisaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlisaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2872D000219D574F0085E356 /* AlisaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlisaUITests.swift; sourceTree = "<group>"; };
 		2872D002219D574F0085E356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2872D015219DC4DF0085E356 /* LevelEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelEntity.swift; sourceTree = "<group>"; };
+		2872D01B219DC7F30085E356 /* TestEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestEntity.swift; sourceTree = "<group>"; };
+		2872D01D219DC9610085E356 /* AnswerEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerEntity.swift; sourceTree = "<group>"; };
+		2872D01F219EA2ED0085E356 /* Testing.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Testing.storyboard; sourceTree = "<group>"; };
+		2872D021219EA3410085E356 /* TestingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingViewController.swift; sourceTree = "<group>"; };
+		28D6973F219F21C2009209CB /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		28D69763219F2298009209CB /* Alisa.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Alisa.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +98,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		281F87CC21A6BB6A00E53424 /* Cases */ = {
+			isa = PBXGroup;
+			children = (
+				2872CFF5219D574F0085E356 /* AlisaTests.swift */,
+				281F87CF21A6BC8600E53424 /* AnswerEntityTests.swift */,
+			);
+			path = Cases;
+			sourceTree = "<group>";
+		};
+		281F87CD21A6BB7000E53424 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		281F87CE21A6BB7400E53424 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				2872CFF7219D574F0085E356 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
 		2872CFD4219D574D0085E356 = {
 			isa = PBXGroup;
 			children = (
+				281F87D521A8384F00E53424 /* Test+CoreDataClass.swift */,
+				281F87D621A8384F00E53424 /* Test+CoreDataProperties.swift */,
 				2872CFDF219D574D0085E356 /* Alisa */,
 				2872CFF4219D574F0085E356 /* AlisaTests */,
 				2872CFFF219D574F0085E356 /* AlisaUITests */,
@@ -106,6 +156,8 @@
 				2872CFE7219D574F0085E356 /* Assets.xcassets */,
 				2872CFE9219D574F0085E356 /* LaunchScreen.storyboard */,
 				2872CFEC219D574F0085E356 /* Info.plist */,
+				281F87D321A81B7C00E53424 /* tests.plist */,
+				28D69762219F2298009209CB /* Alisa.xcdatamodeld */,
 			);
 			path = Alisa;
 			sourceTree = "<group>";
@@ -113,8 +165,9 @@
 		2872CFF4219D574F0085E356 /* AlisaTests */ = {
 			isa = PBXGroup;
 			children = (
-				2872CFF5219D574F0085E356 /* AlisaTests.swift */,
-				2872CFF7219D574F0085E356 /* Info.plist */,
+				281F87CC21A6BB6A00E53424 /* Cases */,
+				281F87CD21A6BB7000E53424 /* Data */,
+				281F87CE21A6BB7400E53424 /* SupportingFiles */,
 			);
 			path = AlisaTests;
 			sourceTree = "<group>";
@@ -131,7 +184,8 @@
 		2872D00E219D8E840085E356 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				2872CFE2219D574D0085E356 /* ViewController.swift */,
+				2872D021219EA3410085E356 /* TestingViewController.swift */,
+				28D6973F219F21C2009209CB /* MainViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -153,6 +207,11 @@
 		2872D011219D8ED10085E356 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2872D015219DC4DF0085E356 /* LevelEntity.swift */,
+				2872D01B219DC7F30085E356 /* TestEntity.swift */,
+				2872D01D219DC9610085E356 /* AnswerEntity.swift */,
+				281F87CA21A6A08200E53424 /* CoreDataHelper.swift */,
+				281F87D121A7FCE600E53424 /* ModelTesting.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -161,6 +220,7 @@
 			isa = PBXGroup;
 			children = (
 				2872CFE4219D574D0085E356 /* Main.storyboard */,
+				2872D01F219EA2ED0085E356 /* Testing.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -271,7 +331,9 @@
 			files = (
 				2872CFEB219D574F0085E356 /* LaunchScreen.storyboard in Resources */,
 				2872CFE8219D574F0085E356 /* Assets.xcassets in Resources */,
+				281F87D421A81B7C00E53424 /* tests.plist in Resources */,
 				2872CFE6219D574D0085E356 /* Main.storyboard in Resources */,
+				2872D020219EA2ED0085E356 /* Testing.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,8 +358,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2872CFE3219D574D0085E356 /* ViewController.swift in Sources */,
+				281F87CB21A6A08200E53424 /* CoreDataHelper.swift in Sources */,
+				2872D01E219DC9610085E356 /* AnswerEntity.swift in Sources */,
+				2872D01C219DC7F30085E356 /* TestEntity.swift in Sources */,
+				2872D016219DC4DF0085E356 /* LevelEntity.swift in Sources */,
+				28D69740219F21C3009209CB /* MainViewController.swift in Sources */,
+				28D69764219F2299009209CB /* Alisa.xcdatamodeld in Sources */,
+				281F87D221A7FCE600E53424 /* ModelTesting.swift in Sources */,
+				2872D022219EA3410085E356 /* TestingViewController.swift in Sources */,
 				2872CFE1219D574D0085E356 /* AppDelegate.swift in Sources */,
+				281F87D721A8384F00E53424 /* Test+CoreDataClass.swift in Sources */,
+				281F87D821A8384F00E53424 /* Test+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +376,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				281F87D021A6BC8600E53424 /* AnswerEntityTests.swift in Sources */,
 				2872CFF6219D574F0085E356 /* AlisaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -626,6 +698,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		28D69762219F2298009209CB /* Alisa.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				28D69763219F2298009209CB /* Alisa.xcdatamodel */,
+			);
+			currentVersion = 28D69763219F2298009209CB /* Alisa.xcdatamodel */;
+			path = Alisa.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 2872CFD5219D574D0085E356 /* Project object */;
 }

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>question</key>
+		<string>Swift provides three primary collection types</string>
+		<key>level</key>
+		<integer>0</integer>
+		<key>correctAnswer</key>
+		<integer>0</integer>
+		<key>answers</key>
+		<array>
+			<string>Arrays, sets and dictionaries</string>
+			<string>Arraylists, linkedlists and dictionaries</string>
+			<string>Hashsets, hashmaps and dictionaries</string>
+			<string>Arrays, hashsets and hashmaps</string>
+		</array>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>If you create some of collection that is created will be</string>
+		<key>level</key>
+		<integer>0</integer>
+		<key>correctAnswer</key>
+		<integer>0</integer>
+		<key>answers</key>
+		<array>
+			<string>Unmutable</string>
+			<string>Mutable</string>
+			<string>Sometimes mutable</string>
+			<string>Sometimes unmutable</string>
+		</array>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>This gives you detailed information about all the objects that are being created and the memory that backs them</string>
+		<key>level</key>
+		<integer>1</integer>
+		<key>correctAnswer</key>
+		<integer>0</integer>
+		<key>answers</key>
+		<array>
+			<string>Allocations</string>
+			<string>Time Profiler</string>
+			<string>Activity Monitor</string>
+			<string>Metal System Trace</string>
+		</array>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>There are actually kinds of leaks:</string>
+		<key>level</key>
+		<integer>1</integer>
+		<key>correctAnswer</key>
+		<integer>0</integer>
+		<key>answers</key>
+		<array>
+			<string>True memory leaks, Unbounded memory growth</string>
+			<string>Unbounded memory growth</string>
+			<string>True memory leaks</string>
+			<string>False memory leaks</string>
+		</array>
+	</dict>
+    
+    <dict>
+        <key>question</key>
+        <string>Q5:</string>
+        <key>level</key>
+        <integer>1</integer>
+        <key>correctAnswer</key>
+        <integer>0</integer>
+        <key>answers</key>
+        <array>
+            <string>A5_1</string>
+            <string>A5_2</string>
+            <string>A5_3</string>
+            <string>A5_4</string>
+        </array>
+    </dict>
+    
+    <dict>
+        <key>question</key>
+        <string>Q6:</string>
+        <key>level</key>
+        <integer>0</integer>
+        <key>correctAnswer</key>
+        <integer>0</integer>
+        <key>answers</key>
+        <array>
+            <string>A6_1</string>
+            <string>A6_2</string>
+            <string>A6_3</string>
+            <string>A6_4</string>
+        </array>
+    </dict>
+    
+    <dict>
+        <key>question</key>
+        <string>Q7:</string>
+        <key>level</key>
+        <integer>0</integer>
+        <key>correctAnswer</key>
+        <integer>0</integer>
+        <key>answers</key>
+        <array>
+            <string>A7_1</string>
+            <string>A7_2</string>
+            <string>A7_3</string>
+            <string>A7_4</string>
+        </array>
+    </dict>
+    
+    <dict>
+        <key>question</key>
+        <string>Q8:</string>
+        <key>level</key>
+        <integer>0</integer>
+        <key>correctAnswer</key>
+        <integer>0</integer>
+        <key>answers</key>
+        <array>
+            <string>A8_1</string>
+            <string>A8_2</string>
+            <string>A8_3</string>
+            <string>A8_4</string>
+        </array>
+    </dict>
+    
+    <dict>
+        <key>question</key>
+        <string>Q9:</string>
+        <key>level</key>
+        <integer>0</integer>
+        <key>correctAnswer</key>
+        <integer>0</integer>
+        <key>answers</key>
+        <array>
+            <string>A9_1</string>
+            <string>A9_2</string>
+            <string>A9_3</string>
+            <string>A9_4</string>
+        </array>
+    </dict>
+    
+    <dict>
+        <key>question</key>
+        <string>Q10:</string>
+        <key>level</key>
+        <integer>0</integer>
+        <key>correctAnswer</key>
+        <integer>0</integer>
+        <key>answers</key>
+        <array>
+            <string>A10_1</string>
+            <string>A10_2</string>
+            <string>A10_3</string>
+            <string>A10_4</string>
+        </array>
+    </dict>
+    
+    <dict>
+        <key>question</key>
+        <string>Q11:</string>
+        <key>level</key>
+        <integer>0</integer>
+        <key>correctAnswer</key>
+        <integer>0</integer>
+        <key>answers</key>
+        <array>
+            <string>A11_1</string>
+            <string>A11_2</string>
+            <string>A11_3</string>
+            <string>A11_4</string>
+        </array>
+    </dict>
+    
+    <dict>
+        <key>question</key>
+        <string>Q12:</string>
+        <key>level</key>
+        <integer>0</integer>
+        <key>correctAnswer</key>
+        <integer>0</integer>
+        <key>answers</key>
+        <array>
+            <string>A12_1</string>
+            <string>A12_2</string>
+            <string>A12_3</string>
+            <string>A12_4</string>
+        </array>
+    </dict>
+</array>
+</plist>
